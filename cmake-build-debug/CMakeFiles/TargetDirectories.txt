@@ -1,0 +1,3 @@
+/Users/ianribeiro/CLionProjects/First Steps in C/cmake-build-debug/CMakeFiles/First_Steps_in_C.dir
+/Users/ianribeiro/CLionProjects/First Steps in C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ianribeiro/CLionProjects/First Steps in C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
