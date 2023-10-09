@@ -3,6 +3,7 @@ project(First_Steps_in_C C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(First_Steps_in_C HelloWorld.c
+add_executable(First_Steps_in_C helloWorld.c
         main.c
-        HelloWorld.h)
+        introductions.c
+        library.h)

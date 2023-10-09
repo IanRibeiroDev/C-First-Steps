@@ -49,14 +49,20 @@ cmake_ninja_workdir = /Users/ianribeiro/CLionProjects/First$ Steps$ in$ C/cmake-
 
 build cmake_object_order_depends_target_First_Steps_in_C: phony || CMakeFiles/First_Steps_in_C.dir
 
-build CMakeFiles/First_Steps_in_C.dir/HelloWorld.c.o: C_COMPILER__First_Steps_in_C_unscanned_Debug /Users/ianribeiro/CLionProjects/First$ Steps$ in$ C/HelloWorld.c || cmake_object_order_depends_target_First_Steps_in_C
-  DEP_FILE = CMakeFiles/First_Steps_in_C.dir/HelloWorld.c.o.d
+build CMakeFiles/First_Steps_in_C.dir/helloWorld.c.o: C_COMPILER__First_Steps_in_C_unscanned_Debug /Users/ianribeiro/CLionProjects/First$ Steps$ in$ C/helloWorld.c || cmake_object_order_depends_target_First_Steps_in_C
+  DEP_FILE = CMakeFiles/First_Steps_in_C.dir/helloWorld.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/First_Steps_in_C.dir
   OBJECT_FILE_DIR = CMakeFiles/First_Steps_in_C.dir
 
 build CMakeFiles/First_Steps_in_C.dir/main.c.o: C_COMPILER__First_Steps_in_C_unscanned_Debug /Users/ianribeiro/CLionProjects/First$ Steps$ in$ C/main.c || cmake_object_order_depends_target_First_Steps_in_C
   DEP_FILE = CMakeFiles/First_Steps_in_C.dir/main.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/First_Steps_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/First_Steps_in_C.dir
+
+build CMakeFiles/First_Steps_in_C.dir/introductions.c.o: C_COMPILER__First_Steps_in_C_unscanned_Debug /Users/ianribeiro/CLionProjects/First$ Steps$ in$ C/introductions.c || cmake_object_order_depends_target_First_Steps_in_C
+  DEP_FILE = CMakeFiles/First_Steps_in_C.dir/introductions.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/First_Steps_in_C.dir
   OBJECT_FILE_DIR = CMakeFiles/First_Steps_in_C.dir
@@ -69,7 +75,7 @@ build CMakeFiles/First_Steps_in_C.dir/main.c.o: C_COMPILER__First_Steps_in_C_uns
 #############################################
 # Link the executable First_Steps_in_C
 
-build First_Steps_in_C: C_EXECUTABLE_LINKER__First_Steps_in_C_Debug CMakeFiles/First_Steps_in_C.dir/HelloWorld.c.o CMakeFiles/First_Steps_in_C.dir/main.c.o
+build First_Steps_in_C: C_EXECUTABLE_LINKER__First_Steps_in_C_Debug CMakeFiles/First_Steps_in_C.dir/helloWorld.c.o CMakeFiles/First_Steps_in_C.dir/main.c.o CMakeFiles/First_Steps_in_C.dir/introductions.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7
   OBJECT_DIR = CMakeFiles/First_Steps_in_C.dir
   POST_BUILD = :
