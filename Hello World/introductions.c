@@ -3,7 +3,9 @@
 #include <stdbool.h>
 #include <string.h>
 
-//This is for testing purposes only. These functions should've absolutely returned Strings instead of printing everything on themselves, but I still don't know how to do that so oh well :)
+// This is for testing purposes only.
+// These functions should've absolutely returned Strings instead of printing everything by themselves,
+// but I still don't know how to do that so oh well :)
 void introducingMyself() {
     char name[] = "Ian";
     char age = 23;
